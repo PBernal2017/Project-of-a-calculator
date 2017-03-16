@@ -7,16 +7,16 @@
 <body>
 	<h1>Hello world!</h1>
 
-	<form:form modelAttribute="resta">
-		<form:label path="Num1">
-			<spring:message code="num1" />
+	<form:form modelAttribute="R">
+		<form:label path="input1">
+			<spring:message code="input1" />
 		</form:label>
-		<form:input path="num1" />
+		<form:input path="input1" />
 		
-		<form:label path="Num2">
-			<spring:message code="num2" />
+		<form:label path="input2">
+			<spring:message code="input2" />
 		</form:label>
-		<form:input path="num2" />
+		<form:input path="input2" />
 		
 		<button type="submit" name= save">Resultado</button>
 		
