@@ -36,9 +36,15 @@ public class CalculatorController {
 		model.addAttribute("equal", resultado);
 		
 		
+		return "calc";}
+		
+		@PostMapping(value="/D")
+		public String dividir (Model model, @ModelAttribute("input2")int input2,@ModelAttribute("input1")int input1) {
+			Integer resultado= (input2 / input1);
+			model.addAttribute("equal", resultado);
+
+		
 		return "calc";
-		
-		
 	
 }
 
