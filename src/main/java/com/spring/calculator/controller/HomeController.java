@@ -1,4 +1,4 @@
-package com.spring.calculator;
+package com.spring.calculator.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
