@@ -21,7 +21,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.package.calculator" />
+	<context:component-scan base-package="com.spring.calculator.controller" />
 	
 	
 	
