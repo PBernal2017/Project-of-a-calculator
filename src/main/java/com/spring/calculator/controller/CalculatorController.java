@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value="/calc")
 public class CalculatorController {
 
+
  
 	
 	@PostMapping(value="/M")
@@ -25,5 +26,9 @@ public class CalculatorController {
 		return "calc";
 		
 		
-	}
+	
 }
+
+}
+	
+
